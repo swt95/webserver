@@ -1,5 +1,5 @@
 //线程同步：互斥锁、条件变量、信号量
-
+#pragma once
 #include<iostream>
 #include<pthread.h>
 #include<exception>
