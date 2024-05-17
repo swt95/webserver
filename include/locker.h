@@ -48,7 +48,7 @@ public:
 private:
 	pthread_mutex_t m_mutex;
 
-}
+};
 
 
 //======================条件变量=====================
@@ -89,7 +89,7 @@ public:
 private:
 	pthread_cond_t m_cond;
 	pthread_mutex_t m_mutex;
-}
+};
 
 //=============================信号量==================================
 
@@ -136,4 +136,4 @@ public:
 
 private:
 	sem_t m_sem;
-}
+};
